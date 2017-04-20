@@ -2,7 +2,7 @@
 	'use strict';
 
 	angular
-		.module('jazzhands.consulting')
+		.module('dare')
         .component('landing', {
             templateUrl: '/app/landing/landing.template.html'
         })

@@ -1,0 +1,27 @@
+
+img.cloud {
+  margin: 0 auto;
+  height: 60vh;
+  object-fit: contain;
+  margin: 2em auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.showerthought-container {
+  width: 80%;
+  min-height: 20vh;
+  text-align: center;
+}
+
+.showerthought-container span::before {
+  content: open-quote;
+}
+
+.showerthought-container span::after {
+  content: close-quote;
+}
+
+

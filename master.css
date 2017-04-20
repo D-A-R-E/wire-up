@@ -14,18 +14,18 @@
 
 body {
   background-color: /* Secondary Color */;
-  color: /* Main Text color */;
+  color: var(--black);
   font-family: /* Main Font */;
 }
 
 h1, h2 {
   font-family: /* Header Font */;
-  color: /* secondary color */;
+  color: var(--red);
 }
 
 /* Header*/
 header.page-header {
-  background-color: #111;
+  background-color: var(--green);
   color: #fff;
 }
 

@@ -1,3 +1,4 @@
+
 img.cloud {
   margin: 0 auto;
   height: 60vh;
@@ -22,3 +23,5 @@ h1 {
 .showerthought-container span::after {
   content: close-quote;
 }
+
+

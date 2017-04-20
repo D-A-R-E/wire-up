@@ -12,6 +12,12 @@
   --green: #1e6534;
 }
 
+nav.navbar {
+  background: none;
+  padding-left: 1em;
+  border: none;
+}
+
 body {
   background-color: /* Secondary Color */;
   color: var(--black);
@@ -25,11 +31,25 @@ h1, h2 {
 
 /* Header*/
 header.page-header {
-  background-color: var(--green);
-  color: #fff;
+  background-color: white;
+  /*color: var(--green);*/
+  width: 100%;
+  margin-top: 0;
+  padding: 0;
 }
 
 header.page-header img {
   height: 80px;
   object-fit: contain;
+  margin-right: 2em;
+  /*background-color: var(--yellow);*/
+}
+
+.navbar .navbar-nav > li > a {
+  color: var(--green);
+  font-size: 1.5em;
+}
+
+.navbar .navbar-nav > li  {
+  height: 100%;
 }

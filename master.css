@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #bc0404;
+  --black: #000;
+  --yellow: #d5d920;
+  --light-green: #5bd936;
+  --green: #1e6534;
+}
+
+body {
+  background-color: /* Secondary Color */;
+  color: /* Main Text color */;
+  font-family: /* Main Font */;
+}
+
+h1, h2 {
+  font-family: /* Header Font */;
+  color: /* secondary color */;
+}
+
+/* Header*/
+header.page-header {
+  background-color: #111;
+  color: #fff;
+}
+
+header.page-header img {
+  height: 80px;
+  object-fit: contain;
+}
